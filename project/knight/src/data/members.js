@@ -1,0 +1,85 @@
+// 멤버 정보와 사진 경로는 이 파일에서 관리하세요.
+// 사진은 public/images/ 폴더에 넣고 "/images/파일명.jpg" 형태로 지정합니다.
+// 확인하지 않은 개인정보는 임의로 채우지 말고 빈 값으로 두세요.
+
+export const members = [
+  {
+    id: "emo",
+    name: "에모",
+    nameEn: "EMO",
+    colorName: "Purple",
+    color: "#c7a2ff",
+    colorSoft: "#f0e5ff",
+    colorDeep: "#65429a",
+    image: "", // 예: "/images/emo-main.jpg"
+    gallery: [], // 예: ["/images/emo-01.jpg", "/images/emo-02.jpg"]
+    catchphrase: "あなたの夜に、やさしい魔法を。",
+    bio: "에모의 소개를 여기에 작성해 주세요.",
+    birthday: "",
+    height: "",
+    bloodType: "",
+    favorites: [],
+    timeline: [],
+    socials: [
+      // { label: "X", url: "https://x.com/..." },
+      // { label: "Instagram", url: "https://instagram.com/..." },
+    ],
+  },
+  {
+    id: "pareo",
+    name: "파레오",
+    nameEn: "PAREO",
+    colorName: "Yellow",
+    color: "#ffe16b",
+    colorSoft: "#fff8d8",
+    colorDeep: "#94751a",
+    image: "", // 예: "/images/pareo-main.jpg"
+    gallery: [],
+    catchphrase: "きらめく瞬間を、一緒に。",
+    bio: "파레오의 소개를 여기에 작성해 주세요.",
+    birthday: "",
+    height: "",
+    bloodType: "",
+    favorites: [],
+    timeline: [],
+    socials: [],
+  },
+  {
+    id: "popa",
+    name: "포파",
+    nameEn: "POPA",
+    colorName: "Mint",
+    color: "#91e6c5",
+    colorSoft: "#e0fff2",
+    colorDeep: "#247b60",
+    image: "", // 예: "/images/popa-main.jpg"
+    gallery: [],
+    catchphrase: "今日をちょっと、カラフルに。",
+    bio: "포파의 소개를 여기에 작성해 주세요.",
+    birthday: "",
+    height: "",
+    bloodType: "",
+    favorites: [],
+    timeline: [],
+    socials: [],
+  },
+  {
+    id: "satbyeol",
+    name: "샛별",
+    nameEn: "SATBYEOL",
+    colorName: "White",
+    color: "#f5f3ff",
+    colorSoft: "#ffffff",
+    colorDeep: "#77718f",
+    image: "", // 예: "/images/satbyeol-main.jpg"
+    gallery: [],
+    catchphrase: "夜空にひとつ、あなたの星。",
+    bio: "샛별의 소개를 여기에 작성해 주세요.",
+    birthday: "",
+    height: "",
+    bloodType: "",
+    favorites: [],
+    timeline: [],
+    socials: [],
+  },
+];

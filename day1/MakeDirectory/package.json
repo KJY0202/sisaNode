@@ -1,0 +1,18 @@
+{
+  "name": "makedirectory",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "po.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "make-dir": "^5.1.0",
+    "pokemon": "^3.3.1",
+    "zend-cli": "^0.0.6"
+  }
+}
